@@ -1,0 +1,110 @@
+@import url("https://use.fontawesome.com/releases/v5.14.0/css/all.css"); 
+body{
+    background: #dedede;
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+  }
+  .dropdwn{
+    margin: o auto;
+  }
+  nav{
+    height:60px;
+    background: black;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+  }
+  .logo{
+    padding: 5px  0 0 80px;
+    width: 150px;
+    height: auto;
+    margin-top: 8px;
+    align-items: center;
+  }
+  nav ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right:480px;
+    /* margin-left: 10px; */
+  }
+  nav ul li{
+    background: black;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    width:max-content;
+  }
+  nav ul li a{
+    display: block;
+    padding: 0 15px;
+    color:white;
+    text-decoration: none;
+    line-height:60px;
+    font-size: 17px;
+  }
+  nav ul li a:hover{
+    background: black;
+    color: rgb(150, 144, 144);
+
+  }
+  nav ul ul{
+    position: absolute;
+    top:60px;
+    display:none;
+  }
+  nav ul li:hover >ul{
+    display: block;
+
+
+  }
+  nav ul ul li{
+    width:270px;
+    float:none;
+    display: list-item;
+    position: relative;
+  }
+  nav ul ul ul li{
+    position: relative;
+    top: -60px;
+    left: 260px;
+  }
+  .profile{
+      float: right;
+      margin-right: 0%;
+      margin-left: 400px;
+    top:0px;
+
+  }
+  #new{
+      position: relative;
+      left: 1040px;
+      bottom: 12px;
+      cursor: pointer;
+      color: white;
+  }
+  #new1{
+    position: relative;
+    left: 1400px;
+    bottom: 30px;
+    color: white;
+    cursor: pointer;
+  }
+  #new2{
+      position: relative;
+      left: 1350px;
+      bottom: 30px;
+      cursor: pointer;
+      color: white;
+    
+  }
+  
+
+#new:hover{
+  color: rgb(150, 144, 144);
+}
+#new1:hover{
+  color:rgb(150, 144, 144)
+}
+#new2:hover{
+  color:rgb(150, 144, 144)
+}
